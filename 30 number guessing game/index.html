@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>number guessing game</title>
     <script src="./js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1>Number Guessing Game</h1>
-    <p>Pick a # between 1 - 10</p>
-    <label>Enter a guess</label>
-    <input id="guessField">
-    <input type="submit" id="submitButton">
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p>Pick a # between 1 - 10</p>
+        <div class="form">
+            <input class="formItem" id="guessField" type="number" min="1" max="10">
+            <input class="formItem" type="submit" id="submitButton">
+        </div>
+        <p id="resultText">Type the number in the input above!</p>
+        <p id="guessesText">Guesses: 0</p>
+    </div>
 </body>
 </html>

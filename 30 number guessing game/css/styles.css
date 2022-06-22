@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.container {
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5px;
+}
+
+.form {
+    height: 10vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formItem {
+    padding: 10px;
+}
+
+#resultText {
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
